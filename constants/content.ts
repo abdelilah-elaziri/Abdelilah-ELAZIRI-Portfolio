@@ -1,6 +1,6 @@
 import { ContentData } from '../types';
 
-const profilePhotoURL = '../assets/profile-photo.jpg';
+const profilePhotoURL = '/constants/assets/profile-photo.jpg';
 
 export const content: ContentData = {
   en: {
