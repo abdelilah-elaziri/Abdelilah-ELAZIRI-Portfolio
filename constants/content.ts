@@ -1,6 +1,6 @@
 import { ContentData } from '../types';
 
-const profilePhotoURL = '/constants/assets/profile-photo.jpg';
+const profilePhotoURL = 'https://raw.githubusercontent.com/abdelilah-elaziri/Abdelilah-ELAZIRI-Portfolio/refs/heads/main/constants/assets/profile-photo.jpg';
 
 export const content: ContentData = {
   en: {
