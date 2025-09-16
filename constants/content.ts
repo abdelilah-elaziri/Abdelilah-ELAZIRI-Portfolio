@@ -1,6 +1,6 @@
 import { ContentData } from '../types';
 
-const profilePhotoURL = 'assets/Profile.png';
+const profilePhotoURL = 'assets/Profile.webp';
 
 export const content: ContentData = {
   en: {
