@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdelilah ELAZIRI - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'dark-blue': '#022C43',
+              'gold': 'var(--gold-color)',
+            },
+            fontFamily: {
+              sans: ['ui-sans-serif', 'system-ui', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        --gold-color: #EAB308; /* Yellow-ish gold for light mode */
+      }
+      .dark {
+        --gold-color: #FFD700; /* Bright yellow/gold for dark mode */
+      }
+      .bg-gold\/20 {
+        background-color: rgba(234, 179, 8, 0.2);
+      }
+      .dark .bg-gold\/20 {
+        background-color: rgba(255, 215, 0, 0.2);
+      }
+      .hover\:bg-gold\/20:hover {
+        background-color: rgba(234, 179, 8, 0.2);
+      }
+      .dark .hover\:bg-gold\/20:hover {
+        background-color: rgba(255, 215, 0, 0.2);
+      }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
